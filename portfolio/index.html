@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bryant Taylor Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
@@ -19,56 +20,44 @@
                 <a href="site-plan.html">Site Plan</a>
             </nav>
         </header>
-        <div id="background">
-            <div>
-                <h1>My Story</h1>
-                <p>I'm Bryant Taylor and I am an aspiring Software Developer. I was first introduced to coding back in highschool when I took a Computer Programming class where we were taught how to use Microsoft Visual Basic. That was many years ago and I let other things distract me from pursuing Software Development. My desire was reignited in 2021 when my wife started a program called TechMoms that taught her the basics of Web Development and I started to find resources to learn HTML and CSS online. In 2022 I went back to school while working full time to learn Software Development in a more traditional manner. I have now been exposed to HTML, CSS, Python, and some JavaScript. I am looking forward to learning even more.</p>
-            </div>
-            <div>
-                <img src="images/family-img.webp" alt="Bryant, his wife and two kids.">
-            </div>
+        
+        <div id="main">
+            <h1 class="main-h">My Story</h1>
+            <p class="main-p">I'm Bryant Taylor and I am an aspiring Software Developer. I was first introduced to coding back in highschool when I took a Computer Programming class where we were taught how to use Microsoft Visual Basic. That was many years ago and I let other things distract me from pursuing Software Development. My desire was reignited in 2021 when my wife started a program called TechMoms that taught her the basics of Web Development and I started to find resources to learn HTML and CSS online. In 2022 I went back to school while working full time to learn Software Development in a more traditional manner. I have now been exposed to HTML, CSS, Python, and some JavaScript. I am looking forward to learning even more.</p>
+        
+            <img id="main-img" src="images/family-img.webp" alt="Bryant, his wife and two kids.">
         </div>
-        <div>
-            <div>
-                <img src="images/family-img2.jpg" alt="Bryant and his family at Christmas.">
-            </div>
-            <div>
-                <h2>My Reason</h2>
-                <p>I wanted to get into Software development for my family. While talking to my connections that work in the Software Development community I have learned that it is a unique field that can offer a lot of options to help me provide the life that I want for my family that I so far haven't been able to do in my current field. I have a beautiful wife and two wonderful children that mean everything to me. I want them to have all the opportunities to succeed in life and I feel that will be best accomplished by my working in the Software Development field.</p>
-            </div>
+        
+        <div id="secondary">
+            <h2 class="sec-h">My Reason</h2>
+            <p class="sec-p">I wanted to get into Software development for my family. While talking to my connections that work in the Software Development community I have learned that it is a unique field that can offer a lot of options to help me provide the life that I want for my family that I so far haven't been able to do in my current field. I have a beautiful wife and two wonderful children that mean everything to me. I want them to have all the opportunities to succeed in life and I feel that will be best accomplished by my working in the Software Development field.</p>
+            <img id="sec-img" src="images/family-img2.jpg" alt="Bryant and his family at Christmas.">
         </div>
-        <div>
-            <div>
-                <h4>Web Development Examples</h4>
-                <div>
-                    <img src="images/html-img1.jpg" alt="screenshot of an html site Bryant created">
-                </div>
-                <div>
-                    <a href="webdev.html">Web Dev Projects</a>
-                </div>
+        
+        <div id="examples">
+            <div class="web">
+                <h4 class="web-h">Web Development Examples</h4>
+                <img class="web-img" src="images/html-img1.jpg" alt="screenshot of an html site Bryant created">
+                <a class="web-button" href="webdev.html">Web Dev Projects</a>    
             </div>
-            <div>
-                <h4>Python Examples</h4>
-                <div>
-                    <img src="images/python-example1.jpg" alt="screenshot of a Python project Bryant created">
-                </div>
-                <div>
-                    <a href="python.html">Python Projects</a>
-                </div>
+            <div class="python">
+                <h4 class="py-h">Python Examples</h4>
+                <img class="py-img" src="images/python-example1.jpg" alt="screenshot of a Python project Bryant created">
+                <a class="py-button" href="python.html">Python Projects</a>
             </div>
         </div>
         <footer>
-            <p>&copy; 2023 || Bryant Taylor || Utah, United States</p>
+            <p>&copy; 2023 | Bryant Taylor | Utah, United States</p>
             <p><a href="site-plan.html">Site Plan</a></p>
             <p><a href="index.html">Home</a></p>
             <p><a href="webdev.html">Web Development Projects</a></p>
             <p><a href="python.html">Python Projects</a></p>
-            <div>
+            <div class="social">
                 <a href="https://www.linkedin.com/in/bryant-taylor" target="_blank" rel="noopener noreferrer">
-                    <img src="#" alt="LinkedIn Logo">
+                    <img class="linkedin" src="images/linkedin-logo.png" alt="LinkedIn Logo">
                 </a>
                 <a href="https://github.com/BryantWTaylor" target="_blank" rel="noopener noreferrer">
-                    <img src="#" alt="GitHub Logo">
+                    <img class="github" src="images/github-logo.png" alt="GitHub Logo">
                 </a>
             </div> 
         </footer>

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Hind+Guntur&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Hind Guntur", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #554348;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #554348;
+    color: #93B7BE;
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    background-color: #747578;
+}
+
+.main-h {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Tahoma", sans-serif;
+}
+
+.main-p {
+    grid-column: 2/5;
+    grid-row: 2/7
+}
+
+#main-img {
+    grid-column: 7/10;
+    height: 50%;
+    width: auto; 
+}
+
+
+
+#secondary {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    height: 900px;
+}
+
+.sec-h {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Tahoma", sans-serif;
+}
+
+#sec-img {
+    grid-column: 2/5;
+    grid-row: 2/7;
+    width: auto;
+    height: 50%;
+}
+
+.sec-p {
+    grid-column: 7/10;
+    grid-row: 2/7;
+}
+
+#examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 30px;
+    justify-content: center;
+    background-color: #747578;
+    height: 650px;
+}
+
+.web {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    justify-content: center;
+}
+
+.web-h {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Tahoma", sans-serif;
+}
+
+.web-img {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    width: 600px;
+    
+}
+
+.web-button {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+    background-color: #93B7BE;
+    text-decoration: none;
+    color: #747578;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.web-button:hover {
+    background-color: #554348;
+    color: #93B7BE;
+}
+
+.python {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.py-h {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Tahoma", sans-serif;
+}
+
+.py-img {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    width: 600px;
+
+}
+
+.py-button {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+    background-color: #93B7BE;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+    color: #747578;
+}
+
+.py-button:hover {
+    background-color: #554348;
+    color: #93B7BE;
+}
+
+footer {
+    background-color: #D4F5F5;
+    color: #554348;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #554348;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #93B7BE;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.linkedin {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.github {
+    max-height: 50px;
+    max-width: 50px;
+}
